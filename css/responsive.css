@@ -1,0 +1,24 @@
+/* SHADOW — Responsive Breakpoints */
+
+@media (max-width: 900px) {
+    nav { padding: 20px 24px; }
+    nav.scrolled { padding: 16px 24px; }
+    .nav-links { display: none; }
+    section { padding: 80px 24px; }
+    #hero { padding: 100px 24px 60px; }
+    h1.hero-title { font-size: clamp(38px, 10vw, 64px); }
+    .portfolio-header { grid-template-columns: 1fr; gap: 32px; }
+    .portfolio-filter { justify-content: flex-start; }
+    .portfolio-grid { grid-template-columns: 1fr; }
+    .card-lg, .card-sm, .card-md, .card-full { grid-column: span 1; }
+    .showcase-inner { grid-template-columns: 1fr; }
+    .about-grid { grid-template-columns: 1fr; gap: 48px; }
+    .stats-row { grid-template-columns: 1fr 1fr; }
+    .skills-grid { grid-template-columns: 1fr 1fr; }
+    .contact-inner { grid-template-columns: 1fr; gap: 48px; }
+    footer { flex-direction: column; gap: 16px; text-align: center; }
+  }
+@media (max-width: 600px) {
+    .skills-grid { grid-template-columns: 1fr; }
+    .stats-row { grid-template-columns: 1fr; }
+  }

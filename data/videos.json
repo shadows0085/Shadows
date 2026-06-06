@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "src": "https://drive.google.com/file/d/1GEeH5I7lfAo7iYsQb1XfPnNem-FC522T/preview",
+    "type": "iframe",
+    "label": "Showreel 2025",
+    "badge": "◆ 4K HDR"
+  },
+
+  "portfolio": [
+    
+    {
+      "id": "edit-07",
+      "file": "uploaded-video/no-1.mp4",
+      "title": "Urban Mirage",
+      "category": "commercial",
+      "cat_label": "Commercial · 4K HDR",
+      "meta": "Real Estate Campaign — 2024",
+      "size": "card-md",
+      "thumb_color": "thumb-1",
+      "thumb_glow": [
+        { "w": 200, "h": 200, "color": "rgba(64,100,200,0.4)", "top": "20%", "left": "30%" },
+        { "w": 120, "h": 120, "color": "rgba(100,150,255,0.3)", "top": "60%", "right": "20%", "delay": "-2s" }
+      ]
+    },
+    {
+      "id": "edit-07",
+      "file": "uploaded-video/no-2.mp4",
+      "title": "SUN ONLIGHT",
+      "category": "commercial",
+      "cat_label": "Commercial · 4K HDR",
+      "meta": "Real  Campaign — 2025",
+      "size": "card-md",
+      "thumb_color": "thumb-1",
+      "thumb_glow": [
+        { "w": 200, "h": 200, "color": "rgba(64,100,200,0.4)", "top": "20%", "left": "30%" },
+        { "w": 120, "h": 120, "color": "rgba(100,150,255,0.3)", "top": "60%", "right": "20%", "delay": "-2s" }
+      ]
+
+    }
+  ],
+
+  "_instructions": {
+    "how_to_add": "Add a new object to the 'portfolio' array above.",
+    "how_to_update_video": "Change the 'file' path to point to your new video in uploaded-video/",
+    "how_to_add_thumbnail": "Add a 'thumb' field with path to an image: 'thumb': 'assets/images/my-thumb.jpg'",
+    "sizes": ["card-lg (7/12 cols)", "card-sm (5/12 cols)", "card-md (6/12 cols)", "card-full (12 cols)"],
+    "categories": ["commercial", "film", "motion", "vfx"],
+    "thumb_colors": ["thumb-1 (blue)", "thumb-2 (amber)", "thumb-3 (navy)", "thumb-4 (gray)", "thumb-5 (green)", "thumb-6 (purple)"],
+    "video_types": "MP4 recommended. Place files in uploaded-video/ folder.",
+    "hero_types": "Set type to 'iframe' for embed URLs (YouTube/Drive) or 'video' for local mp4"
+  }
+
+  
+}
